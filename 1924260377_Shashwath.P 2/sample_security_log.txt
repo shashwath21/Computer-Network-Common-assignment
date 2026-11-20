@@ -1,0 +1,11 @@
+Illustrative demonstration output (timestamps vary)
+192.168.1.10 -> 192.168.1.100 | TCP/80  | Outgoing | Allowed
+192.168.1.20 -> 192.168.1.100 | TCP/443 | Outgoing | Allowed
+192.168.1.50 -> 192.168.1.100 | TCP/22  | Incoming | Blocked | ALERT
+192.168.1.30 -> 192.168.1.100 | UDP/53  | Incoming | Allowed
+192.168.1.99 -> 192.168.1.100 | TCP/23  | Incoming | Blocked | ALERT
+
+Dashboard:
+Total traffic: 5
+Allowed: 3
+Blocked: 2
